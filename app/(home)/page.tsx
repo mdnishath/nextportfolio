@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-[calc(100dvh-200px)]">
+    <div className="flex flex-col items-center justify-center min-h-[calc(100dvh-220px)] max-h-[calc(100dvh-220px)] overflow-y-auto">
       <Image
         src="/nishath.png"
         alt="Nishath"
