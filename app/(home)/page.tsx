@@ -16,7 +16,7 @@ const JsonLdScript = () => {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Nishath",
-    url: "https://yourdomain.com", // ← REPLACE with real domain
+    url: "https://nextportfolio-six-phi.vercel.app/", // ← REPLACE with real domain
     jobTitle: "Full Stack Developer",
     sameAs: [
       "https://www.linkedin.com/in/mdnishath",
