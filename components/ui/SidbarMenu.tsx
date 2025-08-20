@@ -24,23 +24,20 @@ const SidbarMenu = () => {
       <SheetContent>
         <SheetHeader>
           <SheetTitle>Menu</SheetTitle>
-          <SheetDescription>
-            Make changes to your profile here. Click save when you&apos;re done.
-          </SheetDescription>
         </SheetHeader>
         <div className="px-5">
-          <ul>
-            <li>
+          <ul className="flex flex-col gap-3">
+            <li className="hover:bg-orange-600 hover:text-white p-2">
               <Link href={"/"}>Home</Link>
             </li>
-            <li>
-              <Link href={"/"}>About</Link>
+            <li className="hover:bg-orange-600 hover:text-white p-2">
+              <Link href={"/about"}>About</Link>
             </li>
-            <li>
-              <Link href={"/"}>Portfolio</Link>
+            <li className="hover:bg-orange-600 hover:text-white p-2">
+              <Link href={"/work"}>Work</Link>
             </li>
-            <li>
-              <Link href={"/"}>Contact</Link>
+            <li className="hover:bg-orange-600 hover:text-white p-2">
+              <Link href={"/contact"}>Contact</Link>
             </li>
           </ul>
         </div>
