@@ -34,7 +34,7 @@ export default function RootLayout({
       >
         <Providers>
           <Container className="py-[50px]">
-            <div className=" bg-white/30 dark:bg-black/30 backdrop-blur-md border border-white/20 shadow-lg rounded-xl min-h-[calc(100dvh-100px)] px-10 py-5">
+            <div className=" bg-white/30 dark:bg-black/30 backdrop-blur-md border border-white/20 shadow-lg rounded-xl min-h-[calc(100dvh-100px)] md:px-10 px-2 md:py-5 py-3">
               <Header />
               {children}
               <Footer />

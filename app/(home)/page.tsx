@@ -39,7 +39,7 @@ export default function Home() {
     <>
       <JsonLdScript />
 
-      <div className="flex flex-col items-center justify-center min-h-[calc(100dvh-220px)] max-h-[calc(100dvh-220px)] overflow-y-auto">
+      <div className="flex flex-col items-center justify-center min-h-[calc(100dvh-220px)] overflow-y-auto px-4 py-6">
         <Image
           src="/nishath.png"
           alt="Nishath"
@@ -58,9 +58,9 @@ export default function Home() {
           websites that blend clean design with powerful functionality.
         </h2>
 
-        <div className="flex gap-4">
+        <div className="flex flex-col md:flex-row gap-4">
           <Link
-            href="#projects"
+            href="/work"
             className="bg-orange-500 text-white px-6 py-3 rounded-full font-medium hover:bg-orange-600 transform transition duration-300 hover:scale-105"
           >
             <h3>View My Work</h3>
