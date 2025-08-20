@@ -1,5 +1,9 @@
 import Image from "next/image";
-import React from "react";
+export const metadata = {
+  title: "About | Nishath - Web Developer & SEO Specialist",
+  description:
+    "Learn more about Nishath, a passionate full stack web developer specializing in WordPress, local SEO, and business growth solutions.",
+};
 
 const About = () => {
   return (

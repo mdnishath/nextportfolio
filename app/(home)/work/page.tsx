@@ -2,6 +2,11 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+export const metadata = {
+  title: "My Work | Nishath - Portfolio of Web & SEO Projects",
+  description:
+    "Explore Nishath's portfolio of successful web development and SEO projects, including WordPress sites, local rankings, and SaaS dashboards.",
+};
 
 const works = [
   {
