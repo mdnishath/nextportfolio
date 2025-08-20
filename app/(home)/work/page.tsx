@@ -6,28 +6,28 @@ import Link from "next/link";
 const works = [
   {
     id: 1,
-    image: "/work-1.webp",
+    image: "/nextjs.png",
     title: "Next.js SaaS Dashboard",
     subtitle: "Full Stack Development",
     description: "Scalable app with auth, REST APIs, and analytics.",
   },
   {
     id: 2,
-    image: "/work-1.webp",
+    image: "/wordpress.png",
     title: "WordPress Business Site",
     subtitle: "Design & Custom Theme",
     description: "Speed-optimized, Elementor friendly, easy to edit.",
   },
   {
     id: 3,
-    image: "/work-1.webp",
+    image: "/seo.png",
     title: "Local SEO Boost",
     subtitle: "Google Map Pack Ranking",
     description: "On-page, citations, and local signals that convert.",
   },
   {
     id: 4,
-    image: "/work-1.webp",
+    image: "/gmb.png",
     title: "GMB Setup & Reviews",
     subtitle: "Reputation Management",
     description: "Profile optimization and 4.9★ review strategy.",
@@ -56,9 +56,10 @@ const Page = () => {
               <Image
                 src={item.image}
                 alt={item.title}
-                fill
-                className="object-cover transition-transform duration-500 group-hover:scale-105"
-                sizes="(min-width: 768px) 50vw, 100vw"
+                width={400}
+                height={200}
+                className="w-[300px] h-auto mx-auto transition-transform duration-500 group-hover:scale-105"
+                // sizes="(min-width: 768px) 50vw, 100vw"
                 priority={item.id === 1}
               />
               <div className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/5 dark:ring-white/5" />

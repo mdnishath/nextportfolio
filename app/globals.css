@@ -127,3 +127,26 @@
   background: url("/org.jpg") no-repeat center center fixed;
   background-size: cover;
 } */
+
+/* html {
+  scrollbar-gutter: stable both-edges;
+} */
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px; /* 👈 thin */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ea580c; /* Tailwind orange-600 */
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #f97316; /* Tailwind orange-500 */
+}

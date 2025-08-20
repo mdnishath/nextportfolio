@@ -5,6 +5,7 @@ import Providers from "@/components/Providers/Providers";
 import Header from "@/components/shared/Header";
 import Container from "@/components/shared/Container";
 import Footer from "@/components/shared/Footer";
+// import TransitionLayout from "@/components/Providers/transition-layout";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,7 +36,6 @@ export default function RootLayout({
           <Container className="py-[50px]">
             <div className=" bg-white/30 dark:bg-black/30 backdrop-blur-md border border-white/20 shadow-lg rounded-xl min-h-[calc(100dvh-100px)] px-10 py-5">
               <Header />
-
               {children}
               <Footer />
             </div>

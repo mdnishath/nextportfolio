@@ -1,6 +1,7 @@
 import Hero from "@/components/ui/Hero";
 import Image from "next/image";
 import Link from "next/link";
+import { BsWhatsapp } from "react-icons/bs";
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 
 export default function Home() {
@@ -31,9 +32,10 @@ export default function Home() {
           View My Work
         </Link>
         <Link
-          href="#contact"
-          className="border border-orange-500 text-orange-500 px-6 py-3 rounded-full font-medium hover:bg-orange-500 hover:text-white transform transition duration-300 hover:scale-105"
+          href="https://wa.me/8801767591988"
+          className="border border-orange-500 text-orange-500 px-6 py-3 rounded-full font-medium hover:bg-orange-500 hover:text-white transform transition duration-300 hover:scale-105 flex gap-2 items-center justify-center"
         >
+          <BsWhatsapp className="text-green-500" />
           Let’s Connect
         </Link>
       </div>
