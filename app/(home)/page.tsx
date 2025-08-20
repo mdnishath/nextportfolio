@@ -86,10 +86,10 @@ export default function Home() {
             <FaTwitter className="bg-orange-500 p-2 rounded-full hover:bg-orange-600 transform transition duration-300 hover:scale-110 text-4xl" />
           </Link>
           <Link
-            href="https://www.instagram.com/nishath.khandakar/ text-4xl"
+            href="https://www.instagram.com/nishath.khandakar/ "
             target="_blank"
           >
-            <FaInstagram className="bg-orange-500 p-2 rounded-full hover:bg-orange-600 transform transition duration-300 hover:scale-110" />
+            <FaInstagram className="bg-orange-500 p-2 rounded-full hover:bg-orange-600 transform transition duration-300 hover:scale-110 text-4xl" />
           </Link>
         </div>
       </div>
